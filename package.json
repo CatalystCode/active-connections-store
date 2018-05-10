@@ -1,6 +1,6 @@
 {
     "name": "active-connections-store",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "database that tracks active webrtc connections",
     "main": "lib/activeConnections.js",
     "scripts": {
