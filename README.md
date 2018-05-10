@@ -1,5 +1,7 @@
 # active-connections-store
 
+[![Build Status](https://travis-ci.com/CatalystCode/active-connections-store.svg?branch=master)](https://travis-ci.com/CatalystCode/active-connections-store)
+
 A shared module used by both the [signalling](https://github.com/bengreenier/3dtoolkit-signal) and orchestration services of the [3dtoolkit](https://github.com/CatalystCode/3dtoolkit) to managed the shared state around active webrtc connections.
 
 ## Installation
