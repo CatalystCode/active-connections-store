@@ -1,0 +1,23 @@
+{
+    "name": "active-connections-store",
+    "version": "1.0.0",
+    "description": "database that tracks active webrtc connections",
+    "main": "lib/activeConnections.js",
+    "scripts": {
+        "test": "mocha --exit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github.com/timfpark/active-connections-store"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "async": "^2.6.0",
+        "documentdb": "^1.14.4",
+        "http-status-codes": "^1.3.0"
+    },
+    "devDependencies": {
+        "mocha": "^5.1.1"
+    }
+}
