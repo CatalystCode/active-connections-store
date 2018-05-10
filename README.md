@@ -45,16 +45,20 @@ activeConnectionStore.upsert(connection, err => {
 
 Deletes expired client connections from the store.
 
+```
 activeConnectionStore.deleteExpiredClients(err => {
-// expired connections have been deleted.
+    // expired connections have been deleted.
 }
+```
 
 ## getCountByServerId(callback)
 
 Gets an aggregated count by server id of the number of connections to that server.
 
+```
 getCountByServerId((err, aggregatedCounts => {
-// aggregatedCounts is an array of { serverId, count } with the aggregated connected clients of serverId.
+    // aggregatedCounts is an array of { serverId, count } with the aggregated connected clients of serverId.
 })
+```
 
 More usage examples can be found in the unit tests.
